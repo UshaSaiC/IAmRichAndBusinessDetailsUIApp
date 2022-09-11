@@ -14,6 +14,8 @@ struct ContentView: View {
             Color(.systemPurple)
                 .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
             VStack {
+                // below compoennts like Text, Image or Buttons are dragged from views
+                // and the internal prperties of components like color, text, size are dragged from modifiers library
                 Text("I Am Rich")
                 .font(.system(size: 40))
                 // .font(.headline)
